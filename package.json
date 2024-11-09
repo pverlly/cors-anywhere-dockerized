@@ -1,0 +1,20 @@
+{
+  "name": "cors-anywhere-dockerized",
+  "description": "A simple docker image to have cors-anywhere ready to use",
+  "author":"Pablo Verlly <docker.v3rlly@proton.me>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cors",
+    "cors-anywhere",
+    "cors-bypass",
+    "bypass"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  }
+}
